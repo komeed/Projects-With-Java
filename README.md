@@ -4,7 +4,7 @@ Cheat for Game Pigeon Word Hunt. From the Word Hunt screen, input letters row ma
 Being one of my last projects, this was the first one using java swing for ui instead of ASCII. upon entering input, swing will generate a new window that has the 4x4 matrix with red circle representing starting point and black line representing path. To go to next word found, press enter in terminal. <br />
 The solver goes from most letters to least letters.
 
- - **Word Hunt Solver With Trie:** Used Trie Data Structure to streamline character storage and retrieval and to store the 4x4 matrix as a Trie itself to search and remove trie nodes instead of using visited arrays.
+ - **Word Hunt Solver With Trie:** Used Trie Data Structure to streamline word list storage and retrieval and to store the 4x4 matrix as a Trie itself to search and remove trie nodes instead of using visited arrays.
  - **Word Hunt Solver:** My own implementation for Word Hunt Solver. Used DFS and visited arrays (obviously slower & less efficient than Trie). Rather than finding all letter combinations possible, in each iteration I checked if the letters combined were found to start any word from my word list.
  #
 
